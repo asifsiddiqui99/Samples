@@ -1,0 +1,15 @@
+Change Json Indentation and make it Camel Case in Web API
+WebApi Config File ? config.Formatters.JsonFormatter.SerializerSettings.Formatting = Newtonsoft.json.Formatting.Indented;
+WebApi Config File ? config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+
+To make service that only support Json we can remove xml formatter. It can be achieved by adding following line in WebAPI.config file.
+Config.Formatters.Remove(config.Formatters.XmlFormatter)
+
+You can return JSON instead of XML from ASP.NET Web API Service when a request is made from the browser by defining custom Media Type Formatter. See below
+http://csharp-video-tutorials.blogspot.com/2016/09/aspnet-web-api-mediatypeformatter.html
+
+
+http://csharp-video-tutorials.blogspot.com/2016/09/implementing-post-method-in-aspnet-web_7.html
+
+
+http://csharp-video-tutorials.blogspot.com/2016/09/aspnet-web-api-tutorial-for-beginners.html
