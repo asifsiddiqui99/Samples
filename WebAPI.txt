@@ -13,3 +13,5 @@ http://csharp-video-tutorials.blogspot.com/2016/09/implementing-post-method-in-a
 
 
 http://csharp-video-tutorials.blogspot.com/2016/09/aspnet-web-api-tutorial-for-beginners.html
+
+http://info.optuminsight.com/content/hipaa
